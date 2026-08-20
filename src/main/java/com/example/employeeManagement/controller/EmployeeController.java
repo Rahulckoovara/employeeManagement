@@ -33,7 +33,7 @@ public class EmployeeController {
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
-    @GetMapping("/employeess")
+    @GetMapping("/employees")
     public PageResponseDto<EmployeeResponseDto> getAllEmployees(  @RequestParam  (required = false) String search,
                                                                   @RequestParam (required = false)
                                                                   Long departmentId,
