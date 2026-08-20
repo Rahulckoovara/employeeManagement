@@ -13,7 +13,7 @@ WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
 
-ENTRYPOINT ["java", "-jar", "agpp.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
 
 #FROM eclipse-temurin
 #COPY target/doc-demo.jar /doc-demo.jar
