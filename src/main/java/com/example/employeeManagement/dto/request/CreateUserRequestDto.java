@@ -11,6 +11,7 @@ public class CreateUserRequestDto {
     @NotBlank
     private String username;
 
+
     @NotBlank
     private String password;
 
